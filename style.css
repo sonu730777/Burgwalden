@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.heading #Text{
+	text-align: center;
+     margin-bottom: auto;
+    margin-top: 25px;
+}
+.Text2{
+	text-align: center;
+    margin-top: 0px;
+}
+
+
+.barchart{
+	
+	width: 100%;
+	height: 40vh;
+	overflow: hidden;
+	background-color:white;
+	margin-left: 120px;
+	border-radius: 30px;
+	margin-bottom: 500px;
+	
+}
+
+.barchart .value{
+	display: flex;
+	width: auto;
+	height: auto;
+	padding-left: 15%;
+	padding-top: 2%;
+	background-color: white;
+}
+
+.barchart .value #dollar{
+	font-size: 10px;
+	color: gray;
+	padding-top: 5px;	
+}
+
+.barchart .value #amt{
+	color: black;
+	margin-left: 5px;
+}
+
+.barchart .value .percent{
+	width: 40px;
+	height: 20px;
+	border-radius: 4px;
+	background-color: aquamarine;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+.barchart .value .percent #per_text{
+	font-size: 10px;
+	color: white;	
+	justify-content: center;
+}
+
+.barchart #avgtext{
+	color: gray;
+	margin-left: 15%;
+}
+
+.barchart .bars{
+	display: flex;
+	position: relative;
+	width: auto;
+	margin-top: 15%;
+	margin-left: 15%;
+	background-color: white;
+}
+
+.barchart .bar{
+	width: 15px;
+	position: absolute;
+	bottom: 0;
+	border-radius: 10px 10px 0 0;
+	background-color: #8757ED;
+}
+
+.barchart .bars #bar1{
+	height: 70px;
+}
+
+.barchart .bars #bar2{
+	height: 100px;
+	margin-left: 3%;
+}
+
+.barchart .bars #bar3{
+	height: 80px;
+	margin-left: 6%;
+}
+
+.barchart .bars #bar4{
+	height: 120px;
+	margin-left: 9%;
+}
+
+.barchart .bars #bar5{
+	height: 70px;
+	margin-left: 12%;
+}
+
+.barchart .bars #bar6{
+	height: 90px;
+	margin-left: 15%;
+}
+
+.barchart .bars #bar7{
+	height: 60px;
+	margin-left: 18%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+	.barchart{
+		padding-top: 10%;
+	}
+
+	.barchart .bars{
+		margin-top: 40%;
+	}
+
+	.barchart .bars #bar2{
+		margin-left: 7%;
+	}
+
+	.barchart .bars #bar3{
+		margin-left: 14%;
+	}
+
+	.barchart .bars #bar4{
+		margin-left: 21%;
+	}
+
+	.barchart .bars #bar5{
+		margin-left: 28%;
+	}.barchart .bars #bar6{
+		margin-left: 35%;
+	}
+
+	.barchart .bars #bar7{
+		margin-left: 42%;
+	}.barchart .bars #bar8{
+		margin-left: 49%;
+	}
+
+	.barchart .bars #bar9{
+		margin-left: 56%;
+	}.barchart .bars #bar10{
+		margin-left: 63%;
+	}
+
+	
+}
+
+
